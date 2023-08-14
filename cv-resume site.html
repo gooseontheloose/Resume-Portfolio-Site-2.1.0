@@ -771,6 +771,23 @@
              document.getElementById("buttonOptionsModal").style.display = "none";
          }
       </script>
+      <script>
+         function hoverEffect(element) {
+             element.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+             element.style.transform = 'scale(1.05)';
+             element.style.fontSize = '1.02em';
+             element.style.transition = 'background-color 0.3s, font-size 0.3s';
+         
+         }
+         
+         function resetEffect(element) {
+             element.style.backgroundColor = '';
+             element.style.transform = '';
+             element.style.fontSize = '';
+             element.style.transition = 'background-color 0.3s, font-size 0.3s';
+         
+         }
+      </script>
       <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
    </body>
 </html>
